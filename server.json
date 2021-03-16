@@ -23,6 +23,14 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "http://www.hojetemfrango.com.br/wp-content/uploads/2018/11/frango-com-batata-e-brocolis.jpg",
+      "name": "Frango Assado",
+      "price": "20.20",
+      "description": "Um frango delicioso!",
+      "available": true,
+      "id": 4
     }
   ]
 }

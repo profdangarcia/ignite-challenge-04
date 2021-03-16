@@ -4,13 +4,14 @@ import {
   useState,
   useCallback,
   ElementType,
+  InputHTMLAttributes,
 } from 'react';
 
 import { useField } from '@unform/core';
 
 import { Container } from './styles';
 
-interface Props {
+interface Props extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
   icon?: ElementType; 
 }
