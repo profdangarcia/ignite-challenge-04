@@ -2,7 +2,7 @@
   "foods": [
     {
       "id": 1,
-      "name": "Ao molho",
+      "name": "Ao molho Doce!",
       "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas",
       "price": "25",
       "available": true,
@@ -23,6 +23,14 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "http://io2.convertiez.com.br/m/superpaguemenos/shop/products/images/15893/small/frango-inteiro-resfriado-kg_11047.jpg",
+      "name": "Frango FritoS",
+      "price": "18.30",
+      "description": "Um frango lindo!",
+      "available": true,
+      "id": 4
     }
   ]
 }

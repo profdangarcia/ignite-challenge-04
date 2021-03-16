@@ -6,3 +6,5 @@ export interface Food {
   available: boolean;
   image: string;
 }
+
+export type FoodForm = Omit<Food, 'id' | 'available'>
