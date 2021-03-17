@@ -7,4 +7,4 @@ export interface Food {
   image: string;
 }
 
-export type FoodForm = Omit<Food, 'id' | 'available'>
+export type FoodForm = Omit<Food, "id" | "available">;

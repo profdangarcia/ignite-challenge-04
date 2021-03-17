@@ -5,18 +5,18 @@ import {
   useCallback,
   ElementType,
   InputHTMLAttributes,
-} from 'react';
+} from "react";
 
-import { useField } from '@unform/core';
+import { useField } from "@unform/core";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
-  icon?: ElementType; 
+  icon?: ElementType;
 }
 
-const Input = ({ name, icon: Icon, ...rest } : Props) => {
+const Input = ({ name, icon: Icon, ...rest }: Props) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const [isFocused, setIsFocused] = useState(false);
@@ -38,7 +38,7 @@ const Input = ({ name, icon: Icon, ...rest } : Props) => {
     registerField({
       name: fieldName,
       ref: inputRef.current,
-      path: 'value',
+      path: "value",
     });
   }, [fieldName, registerField]);
 
